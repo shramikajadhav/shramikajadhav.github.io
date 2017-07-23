@@ -10,7 +10,7 @@
 		$scope.name = "";
 		$scope.message= "";
 		$scope.totalitems = 0;
-		$scope.setcolor="";
+		
 
 		$scope.DisplayTotalItems = function() {
 			var items = calculateItems($scope.name);
@@ -27,7 +27,7 @@
 		 $scope.CheckIfTooMuch= function(){
 		 	var finalmessage = Check($scope.totalitems);
 		 	$scope.message = finalmessage;
-		 	$scope.setcolor = color;
+		 	
 		 };
 
 
