@@ -37,17 +37,14 @@
 							}
 
 		    else if (string <= 3){
-		    	var color = "green";
-				return "Enjoy";
+		  		return "Enjoy";
 				}
 
 
 			
 			else{
-				var color = "green";
 				return "Too much";
-				
-			}
+				}
 		};
 
 		
