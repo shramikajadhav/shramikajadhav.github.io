@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="LunchCheck">
+<head>
+<meta charset="utf-8">
+<script  src="D:\coursera-projects\coursera-tests\module_1\angular.min.js"></script>
+<script  src="D:\coursera-projects\coursera-tests\module_1\app.js"></script>
+	<title>Module_1</title>
+</head>
+<body>
+<h1>Test 1</h1>
+<div ng-controller="LunchCheckController">
+	<div><input type="text" ng-model="name" ng-keyup="DisplayTotalItems();"> 
+	<div>{{message}}</div>
+	<div> The number of items you are having :  {{totalitems}} </div>
+</div>
+<div><button ng-click="CheckIfTooMuch();">Check if too much</button></div>
+</div>
+</body>
+</html>
